@@ -1,0 +1,119 @@
+.container {
+  float: right;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px; 
+  margin-right: 270px;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+/* body {
+  position: absolute;
+} */
+html{
+  scroll-behavior: smooth
+}
+a:hover {
+  color: red;
+  font-size: 22px;
+}
+a:active {
+  border-radius: 20px;
+}
+.m,
+.a,
+.c {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.692);
+  font-weight: lighter;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  margin-top: 70px;
+  padding-left: 400px;
+  opacity: 0.8;
+}
+
+.text {
+  margin-left: 1000px;
+  margin-top: -600px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+h5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.opacity {
+  opacity: 0.6;
+}
+
+.menu {
+  margin-top: 300px;
+  margin-left: 500px;
+}
+
+.menu-heading {
+  margin-left: 150px;
+  font-size: 35px;
+}
+h4 {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.about-paragraph {
+  opacity: 0.6;
+}
+
+.menu-image {
+  margin-left: 1050px;
+  margin-top: -700px;
+  opacity: 0.8;
+}
+
+.contact-heading {
+  text-align: center;
+  margin-top: 250px;
+}
+
+.contact-heading:hover {
+  color: rgb(23, 196, 115);
+  font-size: 50px;
+}
+
+.website-head {
+  margin-left: -1000px;
+  letter-spacing: 2px;
+  opacity: 0.8;
+  font-size: 21px;
+  font-weight: 100;
+  /* border-bottom: 10px solid green; */
+  position: fixed;
+}
+
+.website-head:hover {
+  color: rgb(119, 255, 0);
+}
+
+h5:hover {
+  color: rgb(23, 196, 115);
+  font-size: 30px;
+}
